@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📚 Library System</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Library Management System</h1>
+
+    <div class="card">
+      <h2>Add a Book</h2>
+      <div class="form-group">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="author" placeholder="Author" />
+        <input type="text" id="isbn" placeholder="ISBN" />
+        <input type="number" id="year" placeholder="Year" />
+        <input type="text" id="genre" placeholder="Genre" />
+        <input type="number" id="quantity" placeholder="Quantity" />
+        <button onclick="addBook()">➕ Add Book</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Borrow / Return a Book</h2>
+      <div class="form-group">
+        <input type="text" id="borrowIsbn" placeholder="Enter ISBN" />
+        <button onclick="borrowBook()">📖 Borrow</button>
+        <button onclick="returnBook()">📥 Return</button>
+      </div>
+    </div>
+
+   <div class="card">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>📚 Available Books</h2>
+    <button onclick="displayBooks()">🔄 Refresh List</button>
+  </div>
+  <div id="bookList" class="book-list"></div>
+</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
