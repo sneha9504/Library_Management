@@ -33,9 +33,13 @@ This is a simple **Library Management System** built with vanilla **HTML**, **CS
 ## 📂 Project Structure
 
 library-app/
+
 ├── index.html # Main HTML layout 
+
 ├── style.css # Styling and layout
+
 ├── script.js # Logic for managing books
+
 └── README.md # Project documentation
 
 
