@@ -22,7 +22,7 @@ This is a simple **Library Management System** built with vanilla **HTML**, **CS
 
 ## 🖼️ Preview
 
-![Library Management Screenshot](preview.png)
+![Library Management Screenshot](D:\BasicWebDevelopment\Library_Management\public\preview.png)
 
 ---
 
